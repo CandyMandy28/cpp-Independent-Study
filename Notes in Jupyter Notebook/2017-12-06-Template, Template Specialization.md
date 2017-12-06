@@ -65,7 +65,7 @@ class SmartArray
 
 # Template Specialization
 
-**NOTE: notation might be wrong**
+*NOTE: notation might be wrong*
 
 This could be placed anywhere as long as it's after the original template function.
 ```c++
@@ -100,12 +100,9 @@ int pow(int base)
 
 # Other Notes
 
-Use `inline` for only in-class or local functions
-
-`vector<bool>`: very compact boolean, uses little space.
-
-Hashmap: `map<string, int> mymap;`
-
-Tuple: `tuple<int,string,char*,Fish> t`
-
-Template errors are fun :)
+* Use `inline` for only in-class or local functions
+* `vector<bool>`: very compact boolean, uses little space.
+* Hashmap: `map<string, int> mymap;`
+* Tuple: `tuple<int,string,char*,Fish> t`
+* Template errors are fun :)
+* MUST BE PART OF THE HEADER FILE, not the source file.
